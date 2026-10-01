@@ -1,0 +1,37 @@
+[
+ {
+   "ID":101,
+   "Name":"Ayaan",
+   "Age":20,
+   "Course":"Data Science",
+   "Marks":89
+ },
+ {
+   "ID":102,
+   "Name":"Rahul",
+   "Age":21,
+   "Course":"IT",
+   "Marks":76
+ },
+ {
+   "ID":103,
+   "Name":"Sara",
+   "Age":null,
+   "Course":"CS",
+   "Marks":91
+ },
+ {
+   "ID":104,
+   "Name":"Amit",
+   "Age":22,
+   "Course":null,
+   "Marks":80
+ },
+ {
+   "ID":105,
+   "Name":"Priya",
+   "Age":20,
+   "Course":"AI",
+   "Marks":95
+ }
+]
