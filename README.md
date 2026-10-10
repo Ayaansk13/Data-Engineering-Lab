@@ -1,26 +1,19 @@
-# Data Engineering Laboratory Coursework
+# Data Engineering
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
-[![Apache Spark](https://img.shields.io/badge/Apache%20Spark-3.5%2B-E25A1C.svg?logo=apachespark&logoColor=white)](https://spark.apache.org/)
-[![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-2.x%2F3.x-017CEE.svg?logo=apacheairflow&logoColor=white)](https://airflow.apache.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-7.0%2B-47A248.svg?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![SQLite](https://img.shields.io/badge/SQLite-3-003B57.svg?logo=sqlite&logoColor=white)](https://www.sqlite.org/)
-[![Status](https://img.shields.io/badge/Coursework-Completed-brightgreen.svg)]()
-
-> A comprehensive, hands-on laboratory repository containing end-to-end practical implementations for the **Data Engineering** course. This repository spans semi-structured data parsing, relational and NoSQL database modeling, exploratory data analysis and noise elimination, REST API ingestion, workflow orchestration using Apache Airflow, distributed big data processing with Apache PySpark, enterprise-grade incremental ETL pipelines, and an end-to-end analytical Data Warehouse Mini Project.
-
----
 
 ## Author Information
+
 
 - **Student Name:** Mohammad Ayaan Sajid Shaikh
 - **Roll Number:** 47
 - **Student ID:** 5135870
-- **Course:** Data Engineering Laboratory
+- **Course:** Data Engineering
 
 ---
 
 ## Course Practicals Overview
+
+
 
 - Practical-01
 - Practical-02
@@ -35,21 +28,9 @@
 
 ---
 
-## Course Objectives
-
-The objective of this laboratory coursework is to develop industry-relevant competency in:
-1. **Data Ingestion & Parsing:** Ingesting, parsing, and validating diverse data formats (CSV, JSON, XML, HTML, plain text, and fixed-width binary structures).
-2. **Database Engineering:** Designing normalized relational database schemas (SQLite) and schema-flexible document stores (MongoDB), enforcing constraints, and executing complex CRUD operations.
-3. **Data Quality & Preprocessing:** Detecting and eliminating statistical noise (IQR method), applying variance thresholding for feature selection, and performing Exploratory Data Analysis (EDA).
-4. **API Integration & Web Ingestion:** Consuming RESTful web APIs, normalizing nested JSON payloads, and blending online data with offline flat-file sources.
-5. **Workflow Orchestration:** Automating, scheduling, and monitoring multi-stage ETL tasks using Apache Airflow Directed Acyclic Graphs (DAGs).
-6. **Distributed Data Processing:** Leveraging Apache PySpark DataFrames and Spark SQL to perform distributed transformations, aggregations, deduplication, and joins on large datasets.
-7. **Production ETL Architecture:** Implementing robust, idempotent batch and incremental ETL pipelines featuring anomaly isolation (Dead-Letter / Quarantine Pattern), schema validation, and Change Data Capture (CDC).
-8. **Enterprise Analytical Data Warehousing:** Designing and operationalizing a Medallion architecture (Bronze, Silver, Gold) and Star Schema Data Warehouse with business intelligence reporting (Practical-10 Mini Project).
-
----
-
 ## Repository Structure
+
+
 
 ```text
 Data-Engineering-Lab/
@@ -117,79 +98,6 @@ Data-Engineering-Lab/
 | **[Practical-08](./Practical-08/)** | Distributed Big Data Transformations with Apache PySpark | `pyspark`, Spark SQL, SparkSession | [`PySpark_DataFrame_Operations.ipynb`](./Practical-08/PySpark_DataFrame_Operations.ipynb) |
 | **[Practical-09](./Practical-09/)** | End-to-End E-Commerce Data Pipeline with Incremental CDC | `pandas`, `sqlite3`, CDC Architecture | [`Incremental_ETL_Data_Pipeline.ipynb`](./Practical-09/Incremental_ETL_Data_Pipeline.ipynb) |
 | **[Practical-10](./Practical-10/)** | Practical-10 – End-to-End Data Engineering Mini Project | `pandas`, `sqlite3`, `seaborn`, `matplotlib` | [`Mini_Project.ipynb`](./Practical-10/Mini_Project.ipynb)<br>[`pipeline.py`](./Practical-10/pipeline.py) |
-
----
-
-## Technologies & Frameworks Used
-
-- **Programming Language:** Python 3.8+
-- **Data Manipulation & Analysis:** Pandas, NumPy
-- **Machine Learning & Preprocessing:** Scikit-learn (`VarianceThreshold`)
-- **Data Visualization:** Matplotlib, Seaborn
-- **Database Engines:** SQLite 3 (RDBMS), MongoDB 7.0+ (NoSQL Document Store)
-- **Workflow Orchestrator:** Apache Airflow 2.x / 3.x
-- **Distributed Computing:** Apache Spark 3.5+ via PySpark
-- **Networking & Serialization:** Requests, Struct, Regular Expressions (`re`), ElementTree XML
-
----
-
-## Software Requirements
-
-Ensure your development environment meets the following specifications:
-- **Operating System:** Linux (Ubuntu 20.04+ recommended), macOS, or Windows (via WSL2 recommended for Airflow/MongoDB).
-- **Python:** Version 3.8 or higher.
-- **Java Runtime:** Java Development Kit (JDK 8 or 11) installed and configured in `JAVA_HOME` (required for PySpark).
-- **MongoDB:** Community Edition 7.0+ along with `mongosh`.
-- **Apache Airflow:** Version 2.8+ or 3.x.
-
----
-
-## Installation & Setup Instructions
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Ayaansk13/Data-Engineering-Lab.git
-cd Data-Engineering-Lab
-```
-
-### 2. Create and Activate a Virtual Environment
-```bash
-# On Linux / macOS
-python3 -m venv venv
-source venv/bin/activate
-
-# On Windows (PowerShell)
-python -m venv venv
-.\venv\Scripts\Activate.ps1
-```
-
-### 3. Install Dependencies
-```bash
-pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-### 4. Setup MongoDB (Required for Practical-03)
-On Debian/Ubuntu or Google Colab:
-```bash
-curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | gpg --yes --dearmor -o /usr/share/keyrings/mongodb-server-7.0.gpg
-echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
-sudo apt-get update
-sudo apt-get install -y mongodb-org mongodb-mongosh
-sudo systemctl start mongod
-```
-
-### 5. Launch Jupyter Lab / Notebook
-```bash
-jupyter lab
-```
-Navigate to any `Practical-XX` folder to explore, inspect, and execute the experiments.
-
----
-
-## Summary of Results
-
-All ten practical experiments (Practical-01 through Practical-10 Mini Project) have been verified, documented, and tested. The coursework covers the full lifecycle of data engineering—from raw file extraction and schema modeling to workflow orchestration, distributed big data processing with PySpark, and production-grade Star Schema Data Warehousing with automated executive reporting.
 
 ---
 *Maintained by Mohammad Ayaan Sajid Shaikh (Roll No: 47, Student ID: 5135870).*
