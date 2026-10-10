@@ -1,0 +1,17 @@
+# Core Data Engineering Dependencies
+pandas>=1.5.0
+numpy>=1.22.0
+scikit-learn>=1.0.0
+matplotlib>=3.5.0
+requests>=2.28.0
+
+# Database & Big Data
+pyspark>=3.4.0
+pymongo>=4.3.0
+
+# Workflow Orchestration
+apache-airflow>=2.8.0
+
+# Interactive Environment
+jupyterlab>=4.0.0
+notebook>=7.0.0
