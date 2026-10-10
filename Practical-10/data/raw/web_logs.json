@@ -1,0 +1,50 @@
+[
+  {
+    "session_id": "S101",
+    "customer_id": "C101",
+    "page": "homepage",
+    "device": "Mobile",
+    "event_time": "2024-05-01 10:15:30",
+    "action": "view"
+  },
+  {
+    "session_id": "S101",
+    "customer_id": "C101",
+    "page": "product_P001",
+    "device": "Mobile",
+    "event_time": "2024-05-01 10:18:45",
+    "action": "click"
+  },
+  {
+    "session_id": "S101",
+    "customer_id": "C101",
+    "page": "cart",
+    "device": "Mobile",
+    "event_time": "2024-05-01 10:22:10",
+    "action": "purchase"
+  },
+  {
+    "session_id": "S102",
+    "customer_id": "C102",
+    "page": "homepage",
+    "device": "Desktop",
+    "event_time": "2024-05-02 14:02:12",
+    "action": "view"
+  },
+  {
+    "session_id": "S103",
+    "customer_id": "C104",
+    "page": "product_P003",
+    "device": "Desktop",
+    "event_time": "2024-05-03 16:45:00",
+    "action": "click"
+  },
+  {
+    "session_id": "S104",
+    "customer_id": "C105",
+    "page": "homepage",
+    "device": "Tablet",
+    "event_time": "2024-05-04 11:20:05",
+    "action": "bounce"
+  }
+]

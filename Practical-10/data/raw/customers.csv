@@ -1,0 +1,15 @@
+customer_id,name,email,city,join_date
+C101,Aarav Sharma,aarav.sharma@example.com,Mumbai,2024-01-15
+C102,Priya Nair,priya.nair@example.com,Bengaluru,2024-02-10
+C103,Rohan Patel,rohan.p@example.com,Ahmedabad,2024-03-05
+C104,Sneha Roy,sneha.roy@example.com,Kolkata,2024-03-22
+C105,Karan Kapoor,karan.k@example.com,Delhi,2024-04-18
+C106,Ananya Joshi,ananya.j@example.com,Pune,2024-05-12
+C107,Vikram Malhotra,vikram.m@example.com,Hyderabad,2024-06-01
+C108,Zoya Akhtar,zoya.a@example.com,Mumbai,2024-06-19
+C109,Farhan Siddiqui,farhan.s@example.com,Lucknow,2024-07-04
+C110,Divya Rao,divya.rao@example.com,Chennai,2024-07-28
+C111,Imran Khan,imran.k@example.com,Delhi,2024-08-14
+C112,Kavita Reddy,kavita.r@example.com,Bengaluru,2024-09-02
+C102,Priya Nair,priya.nair@example.com,bengaluru,2024-02-10
+C113,Rahul Verma,,Jaipur,2024-09-18

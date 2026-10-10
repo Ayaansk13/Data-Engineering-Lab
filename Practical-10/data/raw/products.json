@@ -1,0 +1,79 @@
+[
+  {
+    "product_id": "P001",
+    "product_name": "Ultra Slim Laptop",
+    "category": "Electronics",
+    "unit_cost": 45000,
+    "unit_price": 58000
+  },
+  {
+    "product_id": "P002",
+    "product_name": "Wireless Noise Cancelling Headphones",
+    "category": "Electronics",
+    "unit_cost": 4500,
+    "unit_price": 7999
+  },
+  {
+    "product_id": "P003",
+    "product_name": "Ergonomic Office Chair",
+    "category": "Furniture",
+    "unit_cost": 6000,
+    "unit_price": 9500
+  },
+  {
+    "product_id": "P004",
+    "product_name": "Stainless Steel Water Bottle",
+    "category": "Home & Kitchen",
+    "unit_cost": 300,
+    "unit_price": 699
+  },
+  {
+    "product_id": "P005",
+    "product_name": "Mechanical Keyboard RGB",
+    "category": "Electronics",
+    "unit_cost": 2200,
+    "unit_price": 3800
+  },
+  {
+    "product_id": "P006",
+    "product_name": "Adjustable Standing Desk",
+    "category": "Furniture",
+    "unit_cost": 12000,
+    "unit_price": 18500
+  },
+  {
+    "product_id": "P007",
+    "product_name": "Smart Fitness Watch",
+    "category": "Electronics",
+    "unit_cost": 3100,
+    "unit_price": 4999
+  },
+  {
+    "product_id": "P008",
+    "product_name": "Cotton Bedspread Set",
+    "category": "Home & Kitchen",
+    "unit_cost": 900,
+    "unit_price": 1899
+  },
+  {
+    "product_id": "P009",
+    "product_name": "Portable Bluetooth Speaker",
+    "category": "Electronics",
+    "unit_cost": 1500,
+    "unit_price": 2499
+  },
+  {
+    "product_id": "P010",
+    "product_name": "Non-Stick Cookware Set",
+    "category": "Home & Kitchen",
+    "unit_cost": 2200,
+    "unit_price": 3999
+  },
+  {
+    "product_id": "P999",
+    "product_name": "Unknown Corrupted Product",
+    "category": null,
+    "unit_cost": -500,
+    "unit_price": 0
+  }
+]

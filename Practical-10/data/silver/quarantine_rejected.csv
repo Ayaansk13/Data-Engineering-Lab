@@ -1,0 +1,6 @@
+record_type,identifier,reason,raw_data
+Product,P999,Invalid category or negative/zero cost or price,"{'product_id': 'P999', 'product_name': 'Unknown Corrupted Product', 'category': None, 'unit_cost': -500, 'unit_price': 0}"
+Transaction,ORD1991,Foreign Key violation: Customer 'C999' not found,"{'order_id': 'ORD1991', 'customer_id': 'C999', 'product_id': 'P002', 'order_date': '2024-05-10', 'quantity': 1, 'payment_method': 'UPI', 'order_status': 'Completed'}"
+Transaction,ORD1992,Foreign Key violation: Product 'P888' not found,"{'order_id': 'ORD1992', 'customer_id': 'C103', 'product_id': 'P888', 'order_date': '2024-06-11', 'quantity': 2, 'payment_method': 'Debit Card', 'order_status': 'Completed'}"
+Transaction,ORD1993,Non-positive quantity (-3),"{'order_id': 'ORD1993', 'customer_id': 'C104', 'product_id': 'P003', 'order_date': '2024-07-01', 'quantity': -3, 'payment_method': 'UPI', 'order_status': 'Completed'}"
+Transaction,ORD1994,Corrupted or invalid order_date 'INVALID_DATE',"{'order_id': 'ORD1994', 'customer_id': 'C105', 'product_id': 'P004', 'order_date': 'INVALID_DATE', 'quantity': 1, 'payment_method': 'UPI', 'order_status': 'Completed'}"
