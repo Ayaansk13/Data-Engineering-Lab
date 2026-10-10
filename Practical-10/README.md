@@ -6,7 +6,10 @@
 - **Name:** Mohammad Ayaan Sajid Shaikh
 - **Roll No.:** 47
 - **Student ID:** 5135870
-- **Course:** Data Engineering Laboratory
+- **Partner Name:** Wali Majid Momin
+- **Partner Roll No.:** 26
+- **Partner Student ID:** 5175520
+- **Course:** Data Engineering
 
 ---
 
